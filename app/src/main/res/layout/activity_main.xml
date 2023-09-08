@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iitu"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/sdu_logo" />
+
+    <ImageView
+        android:id="@+id/kbtu"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/kbtu_logo" />
+
+    <ImageView
+        android:id="@+id/aitu"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/aitu_logo" />
+
+    <ImageView
+        android:id="@+id/kaznu"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="150dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/kaznu_logo" />
+
+    <ImageView
+        android:id="@+id/sdu"
+        android:layout_width="100dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/kbtu"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="146dp"
+        android:src="@drawable/iitu" />
+
+    <ImageView
+        android:id="@+id/aues"
+        android:layout_width="100dp"
+        android:layout_height="110dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="31dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/aues_logo" />
+
+    <ImageView
+        android:id="@+id/student"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_student" />
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="27dp"
+        tools:ignore="MissingConstraints" />
+
+    <android.widget.Button
+        android:id="@+id/button"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/spinner"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/gradient_button"
+        android:text="Start"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+</RelativeLayout>
+
+
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="fill_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:background="#FFFFFF"-->
+<!--    android:orientation="vertical"-->
+<!--    tools:context=".MainActivity">-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:baselineAligned="false"-->
+<!--        android:background="@color/teal_200"-->
+<!--        android:orientation="horizontal">-->
+
+<!--        <Button-->
+<!--            android:layout_width="0dip"-->
+<!--            android:layout_height="70dip"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginStart="5dp"-->
+<!--            android:text="Котик"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="0dip"-->
+<!--            android:layout_height="70dip"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginLeft="2.5dp"-->
+<!--            android:layout_marginRight="2.5dp"-->
+<!--            android:text="Кот, кошка и котята"-->
+<!--            android:textSize="15sp" />-->
+
+<!--        <Button-->
+<!--            android:layout_width="0dip"-->
+<!--            android:layout_height="70dip"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_marginEnd="5dp"-->
+<!--            android:text="Кошечка"-->
+<!--            android:textSize="15sp" />-->
+
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="fill_parent"-->
+<!--        android:layout_weight="1"-->
+<!--        android:background="@color/purple_200"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="row one"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="15dp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:gravity="center"-->
+<!--            android:text="row two"-->
+<!--            android:textSize="15dp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="row three"-->
+<!--            android:textSize="15dp"/>-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="row four"-->
+<!--            android:textSize="15dp"/>-->
+<!--    </LinearLayout>-->
+
+<!--</LinearLayout>-->
