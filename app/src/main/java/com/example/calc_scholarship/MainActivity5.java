@@ -1,10 +1,6 @@
-package com.example.zharas_aidarkhan_1;
+package com.example.calc_scholarship;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -13,11 +9,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
-
-import java.io.Serializable;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity5 extends AppCompatActivity {
-
     Spinner spinner;
     ImageView imageView;
     TextView txt8;

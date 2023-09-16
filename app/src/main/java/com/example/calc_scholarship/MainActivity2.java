@@ -1,21 +1,15 @@
-package com.example.zharas_aidarkhan_1;
-
-import androidx.appcompat.app.AppCompatActivity;
+package com.example.calc_scholarship;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
-import java.io.IOException;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity2 extends AppCompatActivity {
-
     ImageView img1, img2, img3;
     TextView txt1, txt2, txt3, txt4, txt5;
     EditText ed1, ed2, ed3;

@@ -1,4 +1,4 @@
-package com.example.zharas_aidarkhan_1;
+package com.example.calc_scholarship;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,11 +20,9 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 public class Page extends AppCompatActivity {
-
     TextView textView;
     ArrayList<String> arrayList;
     Dialog dialog;
-
     Button btn;
 
     @Override

@@ -1,7 +1,6 @@
-package com.example.zharas_aidarkhan_1;
+package com.example.calc_scholarship;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +9,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity3 extends AppCompatActivity {
-
     ImageView img1, img2;
     TextView txt1, txt2, txt3, txt4, txt5;
     EditText ed1, ed2, ed3;
@@ -21,8 +19,8 @@ public class MainActivity3 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
 
-        img1 = (ImageView) findViewById(R.id.red_circle);
-        img2 = (ImageView) findViewById(R.id.blue_circle);
+        img1 = findViewById(R.id.red_circle);
+        img2 = findViewById(R.id.blue_circle);
 
         txt1 = findViewById(R.id.txt1);
         txt2 = findViewById(R.id.txt2);

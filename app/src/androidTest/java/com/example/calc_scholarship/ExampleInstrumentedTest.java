@@ -1,4 +1,4 @@
-package com.example.zharas_aidarkhan_1;
+package com.example.calc_scholarship;
 
 import android.content.Context;
 
